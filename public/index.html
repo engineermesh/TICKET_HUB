@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TicketHub | Sports tickets</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/">Ticket<span>Hub</span></a>
+    <nav>
+      <a href="#events">Events</a>
+      <a href="/login.html">Login</a>
+      <a class="nav-button" href="/register.html">Create account</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">LIVE THE GAME</p>
+        <h1>Your next big match<br><span>starts here.</span></h1>
+        <p>Discover sports events, book your seat and get your digital ticket in one place.</p>
+        <a class="button" href="#events">Explore events</a>
+      </div>
+      <div class="hero-art" aria-label="Sports stadium illustration">
+        <div class="stadium-ball">⚽</div>
+        <div class="stadium-caption">SPORTS. FANS. MOMENTS.</div>
+      </div>
+    </section>
+    <section class="section" id="events">
+      <div class="section-heading">
+        <div><p class="eyebrow">DON'T MISS OUT</p><h2>Upcoming events</h2></div>
+        <span class="muted">Book securely with TicketHub</span>
+      </div>
+      <div id="events-list" class="event-grid"><p>Loading events…</p></div>
+    </section>
+    <section class="steps">
+      <div><b>01</b><h3>Choose an event</h3><p>Find the match or sporting event you want to attend.</p></div>
+      <div><b>02</b><h3>Book your ticket</h3><p>Select a ticket category and quantity.</p></div>
+      <div><b>03</b><h3>Get ready</h3><p>After verified payment, access your digital ticket.</p></div>
+    </section>
+  </main>
+  <footer>© <span id="year"></span> TicketHub. Sports bring us together.</footer>
+  <script src="/js/app.js"></script>
+</body>
+</html>
